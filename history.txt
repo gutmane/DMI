@@ -1,0 +1,30 @@
+    1  firefox &
+    2  ls -l
+    3  -a
+    4  ls -a
+    5  ls -la
+    6  sl -al
+    7  ls -al
+    8  cd
+    9  cd documents
+   10  cd Documents/
+   11  pwd
+   12  ls
+   13  ls la
+   14  ls -la
+   15  cd ..
+   16  pwd
+   17  cd ..
+   18  pwd
+   19  cd/home/user
+   20  cd
+   21  user@sc:-s pwd
+   22  ls -la
+   23  ls -l
+   24  cd darbi/
+   25  history
+   26  mkdir darbi
+   27  ls -l
+   28  cd darbi
+   29  history
+   30  history > history.txt
