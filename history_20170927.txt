@@ -1,0 +1,67 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/gutmane/DMI.git
+    3  ls -l
+    4  cd DMI
+    5  ls -la
+    6  NAME="Agnese"
+    7  echo $NAME
+    8  b=50
+    9  ECHO $b
+   10  echo $b
+   11  NAME="Agnese"
+   12  readonly NAME
+   13  echo $NAME
+   14  name="Vards Uzvards"
+   15  mainiigais_1=10
+   16  echo $mainiigais_1
+   17  1_mainiigais=20
+   18  nano shell_examples.sh
+   19  ls la
+   20  ls -la
+   21  cat shell_examples.s
+   22  shell_examples.sh
+   23  nano shell_examples.sh
+   24  PATH=SPATH:
+   25  PATH=$PATH:~/DMI/
+   26  echo PATH
+   27  echo $PATH
+   28  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+   29  echo $PATH
+   30  PATH=$PATH:~/DMI/
+   31  echo $PATH
+   32  shell_examples.sh
+   33  chmod 744 shel_examples.sh
+   34  chmod 744 shell_examples.sh
+   35  ls -la
+   36  shell_examples.sh
+   37  ls la
+   38  ls -la
+   39  cat shell_examples.sh
+   40  nano shell_examples.sh 
+   41  cat shell_examples.sh
+   42  shell_examples.sh
+   43  nano shell_examples.sh 
+   44  nano shell_examples.sh
+   45  ls -la
+   46  shell_exapmles.sh
+   47  nano shell_examples.sh
+   48  nano shell_examples.shY
+   49  mv shell_examples.shY shell_examples.sh
+   50  ls -la
+   51  nano shell_examples.shY
+   52  nano shell_examples.sh
+   53  chmod 744 shell_examples.sh 
+   54  ls -la
+   55  nano shell_examples.sh
+   56  history > history_20170927.txt
+   57  ls -la
+   58  nano git-uploud
+   59  git-uploud
+   60  nano git-upload
+   61  git-upload
+   62  ls -la
+   63  chmod 744 git-upload 
+   64  nano git-upload 
+   65  rm git-uploud 
+   66  ls -la
+   67  history > history_20170927.txt
