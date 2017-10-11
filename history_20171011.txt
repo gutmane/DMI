@@ -52,3 +52,48 @@
    52  time
    53  nano git-upload
    54  history > history_20171011.txt
+   55  ./git-upload
+   56  mainiigais_1=5 
+   57  mainiigais_2=10
+   58  nano shell_operators.sh
+   59  ./shell_operators.sh
+   60  read mainiigais_1=5 mainiigais_2=10
+   61  raed a b
+   62  read ab
+   63  nano shell_operators.sh
+   64  ./shell_operators.sh 5 10
+   65  nano shell_operators.sh
+   66  ./shell_operators.sh 5 10
+   67  ./shell_operators.sh 45 89
+   68  nano shell_operators.sh
+   69  ./shell_operators.sh 
+   70  nano shell_operators.sh
+   71  ./shell_operators.sh 
+   72  ./shell_operators.sh 1
+   73  ./shell_operators.sh 1 89
+   74  nano shell_operators.sh
+   75  ./shell_operators.sh 1 89
+   76  nano shell_operators.sh
+   77  ./shell_operators.sh 1 89
+   78  ./shell_operators.sh\
+   79  ./shell_operators.sh
+   80  ./shell_operators.sh 4
+   81  ./shell_operators.sh 4 89
+   82  nano shell_operators.sh
+   83  nano dialogs.sh
+   84  ./shell_operators.sh 
+   85  ./shell_operators.sh 5
+   86  ./shell_operators.sh 5 85
+   87  read 5 8
+   88  read a=5 
+   89  ls -la
+   90  chmod 744 dialogs.sh
+   91  ./dialogs.sh
+   92  nano dialogs.sh
+   93  ./dialogs.sh
+   94  nano dialogs.sh
+   95  git_upload
+   96  git-upload
+   97  git upload
+   98  nano git-upload
+   99  history > history_20171011.txt
