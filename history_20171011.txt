@@ -1,0 +1,54 @@
+    1  VirtualBox --startvm XP
+    2  pwd
+    3  ls -l
+    4  git clone https://github.com/gutmane/DMI.git
+    5  cd DMI
+    6  val=`expr 2 + 2`
+    7  echo "Total value : $val"
+    8  val=`expr $a + $b`
+    9  a=10 
+   10  b=20
+   11  val=`expr $a + $b`
+   12  echo "a +b : $val"
+   13  val=`expr $a - $b`
+   14  echo "a - b : $val"
+   15  val=`expr $a \* $b`
+   16  echo "a * b : $val"
+   17  val=`expr $a / $b`
+   18  echo "b / a : $val"
+   19  echo "a / b : $val"
+   20  val=`expr $b / $a`
+   21  echo "b / a : $val"
+   22  val=`expr $a / $b`
+   23  echo "a / b : $val"
+   24  val=`expr $b % $a`
+   25  echo "b % a : $val"
+   26  if [ $a != $b ]; then
+   27  nano shell_operators.sh
+   28  ls -la
+   29  chmod 744 shell_operators.sh
+   30  ls -la
+   31  ./shell_operators.sh
+   32  shell_operators.sh
+   33  nano  shell_operators.sh\
+   34  nano shell_operators.sh
+   35  ./shell_operators.sh
+   36  nano shell_operators.sh
+   37  ./shell_operators.sh
+   38  nano shell_operators.sh
+   39  ls -la
+   40  ./shell_operators.sh
+   41  nano shell_operators.sh
+   42  ./shell_operators.sh
+   43  nano shell_operators.sh
+   44  ./shell_operators.sh
+   45  nano shell_operators.sh
+   46  ./shell_operators.sh
+   47  nano shell_operators.sh
+   48  ./shell_operators.sh
+   49  nano shell_operators.sh
+   50  ./shell_operators.sh
+   51  cal
+   52  time
+   53  nano git-upload
+   54  history > history_20171011.txt
