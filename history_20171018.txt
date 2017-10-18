@@ -1,0 +1,33 @@
+    1  VirtualBox --startvm XP
+    2  firefox $
+    3  git clone https://github.com/gutmane/DMI.git
+    4  ls -la
+    5  dc DMI\
+    6  dc DMI
+    7  cd DMI
+    8  ls -l
+    9  nano Dielogs ar lietotaju
+   10  nano dialogs.sh
+   11  nano a_VS_b.sh
+   12  cat a_VS_b.sh
+   13  chmod 744 a_VS_b.sh
+   14  ./a_VS_b.sh
+   15  nano a_VS_b.sh
+   16  ./a_VS_b.sh
+   17  nano a_VS_b.sh
+   18  ./a_VS_b.sh
+   19  nano a_VS_b.sh
+   20  ./a_VS_b.sh
+   21  nano a_VS_b.sh
+   22  ./a_VS_b.sh
+   23  nano a_VS_b.sh
+   24  ./a_VS_b.sh
+   25  3
+   26  ./a_VS_b.sh
+   27  nano a_VS_b.sh
+   28  ./a_VS_b.sh
+   29  nano a_VS_b.sh
+   30  cp a_VS_b.sh a_VS_b_VS_c.sh
+   31  ls -l
+   32  nano a_VS_b_VS_c.sh
+   33  history > history_20171018.txt
