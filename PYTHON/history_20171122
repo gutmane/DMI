@@ -1,0 +1,44 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/gutmane/DMI.git
+    3  phyton pwd
+    4  cd
+    5  cd DMI
+    6  cd phyton
+    7  cd PHYTON
+    8  ls-l
+    9  ls -l
+   10  cd PYTHON
+   11  nano sin_caur_summu_ver3.py
+   12  python sin_caur_summu_ver3.py
+   13  nano sin_caur_summu_ver3.py
+   14  python sin_caur_summu_ver3.py
+   15  nano sin_caur_summu_ver3.p
+   16  python sin_caur_summu_ver3.py
+   17  nano sin_caur_summu_ver3.py
+   18  python sin_caur_summu_ver3.py
+   19  nano sin_caur_summu_ver3.py
+   20  python sin_caur_summu_ver3.py
+   21  nano sin_caur_summu_ver3.py
+   22  nano sin_caur_summu_ver4.py
+   23  nano sin_caur_summu_ver3.py
+   24  y
+   25  cp sin_caur_summu_ver3.py sin_caur_summu_ver4.py
+   26  nano sin_caur_summu_ver4.py
+   27  python sin_caur_summu_ver4.py
+   28  nano sin_caur_summu_ver4.py
+   29  python sin_caur_summu_ver4.py
+   30  nano sin_caur_summu_ver4.py
+   31  python sin_caur_summu_ver4.py
+   32  nano sin_caur_summu_ver4.py
+   33  python sin_caur_summu_ver4.py
+   34  nano sin_caur_summu_ver4.py
+   35  python sin_caur_summu_ver4.py
+   36  nano sin_caur_summu_ver4.py
+   37  python sin_caur_summu_ver4.py
+   38  nano sin_caur_summu_ver4.py
+   39  python sin_caur_summu_ver4.py
+   40  nano sin_caur_summu_ver4.py
+   41  nano sin_caur_summu_funkcija.py
+   42  git upload
+   43  history >
+   44  history > history_20171122
