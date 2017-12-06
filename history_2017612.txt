@@ -9,3 +9,9 @@
     9  cd..
    10  cd ..
    11  history > history
+   12  history > history_2017_6_12
+   13  ls -la
+   14  git upload
+   15  ./git-upload
+   16  ./git upload
+   17  history > history_2017612.txt
