@@ -1,0 +1,86 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+
+
+
+''' 
+#Funkciju zīmēšana funkcijas garfiks
+
+import matplotlib.pyplot as plt
+import numpy as np
+from math import sinh
+
+def mans_sinuss(x):
+	k=0
+	a=x/1
+	S=a
+	while k < 500:
+	    k = k+1
+	    R = x*x/((2*k)*(2*k+1))
+	    a = a * R
+	    S = S + a
+	return S
+
+x = np.arange(0.0, 3.00, 0.01)
+y = np.sinh(x)
+yy = mans_sinuss(x)
+
+plt.plot(x,y)
+plt.plot(x,yy)
+plt.show()
+
+'''
+
+'''
+#Rekurences reizinātāja zīmēšana
+print "              2       "
+print "            X         "
+print "R =  ________________ "
+print "                      "
+print "     (2*k) * (2*k + 1)"
+'''
+
+
+'''
+#Funkcijas zīmēšana parādot funkciju terminālī
+print "  500"
+print " -----     k+1     2*k    2*k-1  "
+print " \      (-1)  *   x    * 2       "
+print "  \     ________________________ "
+print "  /                              "
+print " /              (2 * k)!         "
+print " -----"
+print "  k=1"
+'''
+
+'''
+#Funkciju apreķināšana
+
+print "apraksts, spēles noteikumi, ko mēs šeit izmantojam, kā tas strādā  un kas sanāks, un spēles noteikumi lietotājam un lūgt viņam ievadīt vai izdarīt darbības. "
+print" aprakstu veikt gandrīz visiem uzdevumiem, izņemot ASCII"
+
+def mans_sinuss(x):
+	k=0
+	a=x/1
+	S=a
+	print "Izdruka no lietotāju funkcijas a0 = %6.2f S0 = %6.2f"%(a,S)
+	while k < 500:
+	    k = k+1
+	    R = x*x/((2*k)*(2*k+1))
+	    a = a * R
+	    S = S + a
+	    print "Izdruka no lietotāju funkcijas a%d = %6.2f S%d = %6.2f"%(k,a,k,S)
+	
+	print "Izdruka no lietotāju funkcijas."
+	print "Beigas!"
+	print "Paldies,lietotāj!"
+	return S
+
+
+x = 1. * input("Lietotāj, lūdzu, ievadi argumentu (x): ")
+y = sinh(x)
+print "standarta sin (%.2f) = %6.2f"%(x,y)
+yy = mans_sinuss(x)
+print type(yy)
+print "mans sin(%.2f) = %6.2f"%(x,yy)
+'''
