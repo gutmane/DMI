@@ -1,0 +1,88 @@
+    1  VirtualBox --startvm XP
+    2  git clone
+    3  git clone https://github.com/gutmane/DMI
+    4  cd DMI 
+    5  cd PYTHON
+    6  nano sin
+    7  ./sin
+    8  nano sin
+    9  ./sin
+   10  nano sin
+   11  ./sin
+   12  nano sin
+   13  ./sin
+   14  nano sin
+   15  ./sin
+   16  nano sin
+   17  ./sin
+   18  nano sin
+   19  ./sin
+   20  nano sin
+   21  ./2.labors
+   22  chmod 744
+   23  ./2.labors
+   24  chmod 744 2.labors
+   25  ./2.labors
+   26  nano 3.labors
+   27  nano 2.labors
+   28  nano 3.labors
+   29  ./3.labors
+   30  nano 3.labors
+   31  y
+   32  ./3.labors
+   33  nano 3.labors
+   34  ./3.labors
+   35  chmod 744 3.labors
+   36  ./3.labors
+   37  nano 3.labors
+   38  ./3.labors
+   39  nano 3.labors
+   40  ./3.labors
+   41  nano 3.labors
+   42  ./3.labors
+   43  nano 3.labors
+   44  ./3.labors
+   45  nano 3.labors
+   46  ./3.labors
+   47  nano 3.labors
+   48  ./3.labors
+   49  nano 3.labors
+   50  ./3.labors
+   51  nano 3.labors
+   52  ./3.labors
+   53  nano 3.labors
+   54  nano 2.labors
+   55  ./3.labors
+   56  nano 3.labors
+   57  ./3.labors
+   58  nano 3.labors
+   59  ./3.labors
+   60  nano 3.labors
+   61  ./3.labors
+   62  nano 3.labors
+   63  ./3.labors
+   64  nano 3.labors
+   65  ./3.labors
+   66  nano 3.labors
+   67  nano 4.labors
+   68  ./4.labors
+   69  chmod 744 4.labors
+   70  ./4.labors
+   71  nano 4.labors
+   72  y
+   73  nano 5.labors
+   74  ./5.labors
+   75  chmod 744 5.labors
+   76  ./5.labors
+   77  nano 5.labors
+   78  nano 4.labors
+   79  ./4.labors
+   80  xuy
+   81  ./4.labors
+   82  y
+   83  nano 2.labors
+   84  ./2.labors
+   85  nano 2.labors
+   86  git clone
+   87  git clone https://github.com/gutmane/DMI
+   88  history>history

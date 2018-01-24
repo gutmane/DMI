@@ -2,9 +2,9 @@
 # -*- coding:utf-8 -*-
 
 
+'''
 
-''' 
-#Funkciju zīmēšana funkcijas garfiks
+#Funkciju zīmēšana funkcijas grafiks
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -28,7 +28,6 @@ yy = mans_sinuss(x)
 plt.plot(x,y)
 plt.plot(x,yy)
 plt.show()
-
 '''
 
 '''
@@ -53,11 +52,16 @@ print " -----"
 print "  k=1"
 '''
 
-'''
-#Funkciju apreķināšana
 
-print "apraksts, spēles noteikumi, ko mēs šeit izmantojam, kā tas strādā  un kas sanāks, un spēles noteikumi lietotājam un lūgt viņam ievadīt vai izdarīt darbības. "
-print" aprakstu veikt gandrīz visiem uzdevumiem, izņemot ASCII"
+#Funkciju apreķināšana
+import matplotlib.pyplot as plt
+import numpy as np
+from math import sinh
+
+
+print "Sveiks, lietotāj! Ievadot Jūsu izvēlēto argumentu x, Jūs redzēsiet funkcijas aprēķinu, izmantojot izvirzījumu Teiolora rindā."
+
+
 
 def mans_sinuss(x):
 	k=0
@@ -83,4 +87,4 @@ print "standarta sin (%.2f) = %6.2f"%(x,y)
 yy = mans_sinuss(x)
 print type(yy)
 print "mans sin(%.2f) = %6.2f"%(x,yy)
-'''
+
