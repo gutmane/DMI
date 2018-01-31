@@ -1,93 +1,151 @@
-    1  VirtualBox --startvm XP
-    2  git clone
-    3  git clone https://github.com/gutmane/DMI
-    4  cd DMI 
-    5  cd PYTHON
-    6  nano sin
-    7  ./sin
-    8  nano sin
-    9  ./sin
-   10  nano sin
-   11  ./sin
-   12  nano sin
-   13  ./sin
-   14  nano sin
-   15  ./sin
-   16  nano sin
-   17  ./sin
-   18  nano sin
-   19  ./sin
-   20  nano sin
-   21  ./2.labors
-   22  chmod 744
-   23  ./2.labors
-   24  chmod 744 2.labors
-   25  ./2.labors
-   26  nano 3.labors
-   27  nano 2.labors
-   28  nano 3.labors
-   29  ./3.labors
-   30  nano 3.labors
-   31  y
-   32  ./3.labors
-   33  nano 3.labors
-   34  ./3.labors
-   35  chmod 744 3.labors
-   36  ./3.labors
-   37  nano 3.labors
-   38  ./3.labors
-   39  nano 3.labors
-   40  ./3.labors
-   41  nano 3.labors
-   42  ./3.labors
-   43  nano 3.labors
-   44  ./3.labors
-   45  nano 3.labors
-   46  ./3.labors
-   47  nano 3.labors
-   48  ./3.labors
-   49  nano 3.labors
-   50  ./3.labors
-   51  nano 3.labors
-   52  ./3.labors
-   53  nano 3.labors
-   54  nano 2.labors
-   55  ./3.labors
-   56  nano 3.labors
-   57  ./3.labors
-   58  nano 3.labors
-   59  ./3.labors
-   60  nano 3.labors
-   61  ./3.labors
-   62  nano 3.labors
-   63  ./3.labors
-   64  nano 3.labors
-   65  ./3.labors
-   66  nano 3.labors
-   67  nano 4.labors
-   68  ./4.labors
-   69  chmod 744 4.labors
-   70  ./4.labors
-   71  nano 4.labors
-   72  y
-   73  nano 5.labors
-   74  ./5.labors
-   75  chmod 744 5.labors
-   76  ./5.labors
-   77  nano 5.labors
-   78  nano 4.labors
-   79  ./4.labors
-   80  xuy
-   81  ./4.labors
-   82  y
-   83  nano 2.labors
-   84  ./2.labors
-   85  nano 2.labors
-   86  git clone
-   87  git clone https://github.com/gutmane/DMI
-   88  history>history
-   89  CD..
-   90  cs..
-   91  cd..
-   92  cd ..
-   93  history>history
+    1  ls -l
+    2  nano tabula 
+    3  ls -l
+    4  nano tabula
+    5  ./tabula
+    6  nano tabula
+    7  ./tabula
+    8  nano tabula
+    9  ./tabula
+   10  nano tabula
+   11  ./tabula
+   12  nano tabula
+   13  ./tabula
+   14  nano tabula
+   15* 
+   16  idle &
+   17  nano tabula
+   18  idle &
+   19  ./tabula
+   20  nano tabula
+   21  ./tabula
+   22  nano tabula
+   23  ./tabula
+   24  nano tabula
+   25  ./tabula
+   26  nano tabula
+   27  ./tabula
+   28  nano tabula
+   29  ./tabula
+   30  nano tabula
+   31  ./tabula
+   32  nano tabula
+   33  ./tabula
+   34  nano tabula
+   35  ./tabula
+   36  nano tabula
+   37  ./tabula
+   38  nano tabula
+   39  ./tabula
+   40  nano tabula
+   41  ./tabula
+   42  nano tabula
+   43  ./tabula
+   44  git-upload https://github.com/gutmane/DMI
+   45  nano tabula
+   46  git clone https://github.com/gutmane/DMI
+   47  ls-la
+   48  ls -l
+   49  git clone https:///github.com/gutmane/DMI
+   50  cd DMI
+   51  cd python
+   52  ls -l
+   53  cd PYTHON
+   54  nano 3.labors
+   55  nano 5.labors
+   56  nano 2.labors
+   57  ls -l
+   58  cd DMI
+   59  nano 2.labors
+   60  cd home
+   61  cd PYTHON
+   62  ls -l
+   63  out DMI
+   64  cd ..
+   65  ls -l
+   66  cd ..
+   67  ls -l
+   68  chmod 744 2.labors
+   69  ls -l
+   70  nano 2.labors
+   71  ./2.labors
+   72  cd DMI
+   73  cd PYTHON
+   74  nano 3.labors
+   75  ./3.labors
+   76  nano 3.labors
+   77  ./3.labors
+   78  nano 3.labors
+   79  ./3.labors
+   80  nano 3.labors
+   81  ./3.labors
+   82  nano 3.labors
+   83  ./3.labors
+   84  nano 3.labors
+   85  ./3.labors
+   86  nano 3.labors
+   87  ./3.labors
+   88  nano 3.labors
+   89  ./3.labors
+   90  nano 3.labors
+   91  nano 2.labors
+   92  idle
+   93  nano random
+   94  nano 2.labors
+   95  ./2.labors
+   96  idle
+   97  cd ..
+   98  mkdir FINAL
+   99  la -la
+  100  git-upload https.//github.com/gutmane
+  101  git-upload 15.01.2018
+  102  cd ..
+  103  git-upload 15.01.2018
+  104  cd DMI
+  105  ls -la
+  106  ./git-upload 15.01.18
+  107  cd FINAL
+  108  ..
+  109  cd ..
+  110  ./git-upload 150118
+  111  cd DMI
+  112  ./git-upload 150118
+  113  cat git-upload
+  114  ./git-upload 150118_15
+  115  ls -l
+  116  cd DMI
+  117  ls -la
+  118  nano .
+  119  nano ..
+  120  cd ..
+  121  cd DMI
+  122  ls -l
+  123  cd ..
+  124  cd git-upload
+  125  nano git-upload
+  126  cd ..
+  127  ls -la
+  128  nano tabula
+  129  cd DMI
+  130  cd PYTHON
+  131  nano 0.labors
+  132  cd ..
+  133  git clone https.//github.com/gutmane/DMI
+  134  cd DMI
+  135  git clone https.//github.com/gutmane/DMI
+  136  ls -l
+  137  cd FINAL
+  138  nano index.html
+  139  ls -l
+  140  cd ..
+  141  ./git-upload https://www.github.com/gutmane/DMI
+  142  ./git upload https://www.github.com/gutmane/DMI
+  143  pwd
+  144  nano git-upload
+  145  y
+  146  cd DMI
+  147  cd FINAL
+  148  nano index.html
+  149  cd ..
+  150  pwd
+  151  history>history

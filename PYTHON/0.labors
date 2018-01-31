@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Lietotāj, lūdzu, ievadiet skatiļu rindu:"
+read input
+a=($input)
+n=${#a[@]}
+
+sort=($(printf "%s\n" "${a[@]}" | sort -n))
+echo "Skaitļi augošā secībā: "${sort[@]}
+
+echo "Lielākais skaitlis ir "${sort[n-1]}
