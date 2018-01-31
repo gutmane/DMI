@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-'''
+
 
 #Funkciju zīmēšana funkcijas grafiks
 
@@ -28,18 +28,18 @@ yy = mans_sinuss(x)
 plt.plot(x,y)
 plt.plot(x,yy)
 plt.show()
-'''
 
-'''
+
+
 #Rekurences reizinātāja zīmēšana
 print "              2       "
 print "            X         "
 print "R =  ________________ "
 print "                      "
 print "     (2*k) * (2*k + 1)"
-'''
 
-'''
+
+
 #Funkcijas zīmēšana parādot funkciju terminālī
 print "  500"
 print " -----     k+1     2*k    2*k-1  "
@@ -49,9 +49,7 @@ print "  /                              "
 print " /              (2 * k)!         "
 print " -----"
 print "  k=1"
-'''
 
-'''
 #Funkciju apreķināšana
 import matplotlib.pyplot as plt
 import numpy as np
@@ -86,39 +84,3 @@ print "standarta sin (%.2f) = %6.2f"%(x,y)
 yy = mans_sinuss(x)
 print type(yy)
 print "mans sin(%.2f) = %6.2f"%(x,yy)
-
-'''
-#Apgabala aprēķināšana
-
-
-import random
-import numpy as np
-
-def ranges(bars_ranges_local,bars_local,x_local):
-    for i in range(len(x_local)):
-        for j in range(len(bars_ranges_local)-1):
-            if x_local[i] > bars_ranges_local[j] and x_local[i] < bars_ranges_local[j+1]:
-                bars_local[j] = bars_local[j] + 1
-                #print x[i]
-                #print b
-        if x_local[i] > bars_ranges_local[j+1]:
-            bars_local [j+1] = bars_local[j+1] + 1 
-    return bars_local
-
-N = 100000
-#N = 5
-x = []
-a = 0
-b = np.pi
-delta = 0.5
-for i in range(N):
-    x.append(random.uniform(a,b))
-    #x.append(random.triangular(a,b))
-    #print x 
-
-bars_ranges = np.arange(a,b,delta)
-bars = np.zeros(len(bars_ranges))
-print bars
-bars = ranges(bars_ranges,bars,x)
-print bars
-print bars.sum()
