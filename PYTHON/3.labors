@@ -45,8 +45,8 @@ def mans_sinuss(x):
         S = S + a
     return S
 
-a =-4
-b = 4
+a=-4.0
+b=4.0
 x = np.arange(a,b,0.01)
 y = mans_sinuss(x)
 plt.plot(x,y)
