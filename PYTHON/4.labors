@@ -1,4 +1,7 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+#print formāti
+# http://www.cplusplus.com/refrence/cstdio/printf
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -13,9 +16,9 @@ def mans_sinuss(x):
         S = S + a
     return S
 
-a = 0
-b = 3 * np.pi
-x = np.arange(a,b,0.5)
+a = 0.
+b = 3. * np.pi
+x = np.arange(a,b,0.05)
 y = mans_sinuss(x)
 # https://matplotlib.org/users/pyplot_tutorial.html
 plt.plot(x,y)
