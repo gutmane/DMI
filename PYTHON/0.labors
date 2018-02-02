@@ -1,31 +1,28 @@
 #!/bin/bash
-echo "Lietotāj, lūdzu, ievadiet skatiļu rindu:"
-read input
-a=($input)
-n=${#a[@]}
-
-sort=($(printf "%s\n" "${a[@]}" | sort -n))
-echo "Skaitļi augošā secībā: "${sort[@]}
-
-echo "Lielākais skaitlis ir "${sort[n-1]}
-echo "Mazākais skaitlis ir " ${sort[0]}
-
-summa=0
-k=0
-while (( $k < $n))
+echo "Lietotāj, lūdzu ievadiet skaitļu skaitu, cik skaitļus vēlēsieties salīdzināt."
+read n
+for (( i=1; i<=n; i++))
 do 
-	summa=`expr $summa +${sort[$k]}`
-	k=`expr $k + 1`
-done
-vsk=`expr $summa /$n`
-dsk=`expr $summa & 1$n`
-echo "Vidējā vērtība ir " $vsk "." $dsk
+echo "Tagad ievadiet skaitļi, kuru vēlaties apskatīt. " 
+read x
+sum=`expr $sum + $x`
 
-if (( n % 2 == 1))
-then 
-	echo -n "Mediāna ir "
-	echo "${sort[($n-1)/2]}" | bc
-else 
-	echo -n "Mediāna ir "
-	echo "scale=2;(${sort[$n/2]} + ${sort[$n/2-1]})/2" | bc
+if (( i==1 ))
+then
+max=$x
+min=$x
+elif (( $x > $max ))
+then
+max=$x
+elif (( $x < $min ))
+then
+min=$x 
 fi
+done
+vid=`expr $sum / $n` 
+atl=`expr $sum % $n`
+p=`expr $atl \* 10 / $n`
+echo "videja vertiba  $vid.$p"
+echo "minimala vertiba $min"
+echo "maksimala vertiba $max"
+echo "Beigas!"
