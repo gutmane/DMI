@@ -1,3 +1,4 @@
+
 m=open("meta.bin", "rb")
 t=open("text.txt", "w")
 d=open("data.bin", "rb")
